@@ -20,7 +20,7 @@ winget install --id Git.Git -e --source winget
 git clone https://github.com/0x7AE3/dotfiles
 ```
 
-3. Now add [windows/unix-commands](https://github.com/0x7AE3/dotfiles/tree/main/windows/unix-commands) to the User `PATH`. You should move it to a reasonable location such as your home directory, which is `$HOME` in Powershell 
+3. Now add [windows/unix-commands](https://github.com/0x7AE3/dotfiles/tree/master/windows/unix-commands) to the User `PATH`. You should move it to a reasonable location such as your home directory, which is `$HOME` in Powershell 
 
 4. Next install `vim` from [here](https://www.vim.org/download.php); no way are we building from source on Windows... same with `neovim` from [here](https://github.com/neovim/neovim)
 
@@ -40,7 +40,7 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 winget install Microsoft.WindowsTerminal
 ```
 
-7. Now we can ditch the garbage Powershell and use Windows Terminal. Copy [.vimrc](https://github.com/0x7AE3/dotfiles/tree/main/windows/vim/.vimrc) to the home directory, which is `%USERPROFILE%` in Windows Terminal. Do the same with [init.vim](https://github.com/0x7AE3/dotfiles/tree/main/windows/nvim/init.vim) to `%LOCALAPPDATA%`
+7. Now we can ditch the garbage Powershell and use Windows Terminal. Copy [.vimrc](https://github.com/0x7AE3/dotfiles/tree/master/windows/vim/.vimrc) to the home directory, which is `%USERPROFILE%` in Windows Terminal. Do the same with [init.vim](https://github.com/0x7AE3/dotfiles/tree/master/windows/nvim/init.vim) to `%LOCALAPPDATA%`
 
 8. Open a `vim` session and run `:PlugInstall`. Do the same in `nvim`
 
@@ -52,4 +52,4 @@ git config --global user.name "andy d"
 git config --global user.email "email@gmail.com"
 ```
 
-9. To configure SSH with Github, see [SSH.md](https://github.com/0x7AE3/dotfiles/tree/main/windows)
+9. To configure SSH with Github, see [SSH.md](https://github.com/0x7AE3/dotfiles/tree/master/windows)
