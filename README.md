@@ -1,8 +1,8 @@
 # Setup Guide
 
-## Unix
+## Linux 
 
-Run [setup.sh](unix/setup.sh)
+Run [setup.sh](linux/setup.sh)
 
 To configure SSH with Github, see [here](https://gist.github.com/cham11ng/fee11faf2f41667fad3c9a8c69fde2c2) or [here](https://gist.github.com/juanique/4092969)
 
